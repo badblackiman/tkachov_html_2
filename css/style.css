@@ -22,7 +22,6 @@
 }
 .container{
     width: 500px;
-    height: 1024px;
 }
 h1{
     font-family: Arial, serif;
@@ -45,10 +44,8 @@ h1{
     line-height: 4.5;
     text-indent: 0;
 }
-hr{
-    background-color: rgba(31, 31, 31, 0.22);
-    width: 500px;
-    height: 1px;
+.text{
+    border-top: 1px solid #c3c7c4;
 }
 h3{
     font-family: MyriadProBold, serif;
