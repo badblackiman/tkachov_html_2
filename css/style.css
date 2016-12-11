@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Arial;
+}
+@font-face {
+    font-family: MyriadPro;
+    src: url('../fonts/MyriadPro/MyriadPro-Regular.otf'),
+        url('../fonts/MyriadPro/MyriadPro-Regular.woff') format("woff");
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url('../fonts/MyriadPro/MyriadPro-Bold.otf'),
+    url('../fonts/MyriadPro/MyriadPro-Bold.woff') format("woff");
+}
+@font-face {
+    font-family: MyriadProBoldIt;
+    src: url('../fonts/MyriadPro/MyriadPro-BoldIt.otf'),
+    url('../fonts/MyriadPro/MyriadPro-BoldIt.woff') format("woff");
+}
+*  {
+    margin: 0 auto;
+    text-align: left;
+}
+.container{
+    width: 500px;
+    height: 1024px;
+}
+h1{
+    font-family: Arial, serif;
+    color:  #010101;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+}
+.student{
+    font-family: Arial, serif;
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 4.5;
+    text-indent: 0;
+}
+hr{
+    background-color: rgba(31, 31, 31, 0.22);
+    width: 500px;
+    height: 1px;
+}
+h3{
+    font-family: MyriadProBold, serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 3.5;
+}
+ul{
+    font-family: MyriadPro, serif;
+    color:  #3b3b3b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+p{
+    font-family: MyriadPro, serif;
+    color:  #3b3b3b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-indent: 2.5em
+}
+p>a{
+    font-family: MyriadProBoldIt, serif;
+    color:rgb(49, 118, 219);
+}
